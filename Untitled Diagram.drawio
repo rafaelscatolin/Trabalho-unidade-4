@@ -1,16 +1,164 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T00:43:06.854Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="tmTNMdQdY6OivYxtRwKh" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-09T01:39:09.354Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="0jn8UYnoTd3SQXnFqx-r" version="19.0.3" type="github">
   <diagram id="jAwHWV7zoyLVhlkX6k6m" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <object label="USUÁRIO" id="x92N0MeoW_DuO3bZxoaV-2">
-          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-            <mxGeometry x="140" y="320" width="30" height="60" as="geometry" />
+        <object label="Usuário" id="x92N0MeoW_DuO3bZxoaV-2">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="-693" y="340" width="30" height="60" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="x92N0MeoW_DuO3bZxoaV-10" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="310" width="120" height="80" as="geometry" />
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="MpPONn-i2ouNZNEgmaMk-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-663" y="370" as="sourcePoint" />
+            <mxPoint x="-563" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="Responsável pelo&lt;br&gt;evento" id="MpPONn-i2ouNZNEgmaMk-6">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+            <mxGeometry x="-683" y="200" width="30" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-7" value="Cadastra o evento&lt;br&gt;informando os dados&lt;br&gt;(local, data, etc)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-603" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MpPONn-i2ouNZNEgmaMk-6" target="MpPONn-i2ouNZNEgmaMk-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-863" y="360" as="sourcePoint" />
+            <mxPoint x="-813" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="Coordenador" id="MpPONn-i2ouNZNEgmaMk-16">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+            <mxGeometry x="-290" y="265" width="30" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-17" value="após os cadastros, o coordenador define o comitê de programa do evento." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="240" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MpPONn-i2ouNZNEgmaMk-16" target="MpPONn-i2ouNZNEgmaMk-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-60" y="265" as="sourcePoint" />
+            <mxPoint x="-10" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-24" value="&lt;span style=&quot;&quot;&gt;Se cadastra como&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;membro da sociedade, informando os dados pessoais e da instituição&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-603" y="315" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-29" value="Cadastra o Artigo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-603" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="MpPONn-i2ouNZNEgmaMk-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-660" y="370" as="sourcePoint" />
+            <mxPoint x="-610" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="Avaliador" id="MpPONn-i2ouNZNEgmaMk-31">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+            <mxGeometry x="230" y="520" width="30" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Avaliador" id="MpPONn-i2ouNZNEgmaMk-32">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+            <mxGeometry x="285" y="520" width="30" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Avaliador" id="MpPONn-i2ouNZNEgmaMk-33">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+            <mxGeometry x="340" y="520" width="30" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-40" value="É realizada a verificação se algum avaliador é&amp;nbsp;autor do artigo ou um membro do comitê de programa vinculado a uma instituição de um dos autores do artigo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="242.5" width="200" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-41" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MpPONn-i2ouNZNEgmaMk-17" target="MpPONn-i2ouNZNEgmaMk-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-290" y="390" as="sourcePoint" />
+            <mxPoint x="-240" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-43" value="Caso sim" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-44" value="Caso não" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-45" value="Artigo é enviado para os avaliadores" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-46" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MpPONn-i2ouNZNEgmaMk-40" target="MpPONn-i2ouNZNEgmaMk-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-290" y="390" as="sourcePoint" />
+            <mxPoint x="-240" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-47" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MpPONn-i2ouNZNEgmaMk-43" target="MpPONn-i2ouNZNEgmaMk-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-290" y="390" as="sourcePoint" />
+            <mxPoint x="-240" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-48" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MpPONn-i2ouNZNEgmaMk-44" target="MpPONn-i2ouNZNEgmaMk-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-290" y="390" as="sourcePoint" />
+            <mxPoint x="-240" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-50" value="O coordenador recebe uma notificação para escolher outro avaliador" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-185" y="125" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-51" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MpPONn-i2ouNZNEgmaMk-31" target="MpPONn-i2ouNZNEgmaMk-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-290" y="360" as="sourcePoint" />
+            <mxPoint x="-240" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-52" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MpPONn-i2ouNZNEgmaMk-32" target="MpPONn-i2ouNZNEgmaMk-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-290" y="360" as="sourcePoint" />
+            <mxPoint x="-240" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-53" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MpPONn-i2ouNZNEgmaMk-33" target="MpPONn-i2ouNZNEgmaMk-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-150" y="360" as="sourcePoint" />
+            <mxPoint x="-100" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-54" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MpPONn-i2ouNZNEgmaMk-50" target="MpPONn-i2ouNZNEgmaMk-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-150" y="360" as="sourcePoint" />
+            <mxPoint x="-100" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-55" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MpPONn-i2ouNZNEgmaMk-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-150" y="360" as="sourcePoint" />
+            <mxPoint x="-260" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-56" value="Avaliam o artigo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-57" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="610" as="sourcePoint" />
+            <mxPoint x="290" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-58" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="610" as="sourcePoint" />
+            <mxPoint x="300" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MpPONn-i2ouNZNEgmaMk-59" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="610" as="sourcePoint" />
+            <mxPoint x="320" y="640" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
